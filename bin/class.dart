@@ -23,7 +23,7 @@ class Lion extends Animal {
     if (value > 0) {
       _maneSize = value;
     } else {
-      print("❌ Mane size must be > 0");
+      print("Mane size must be > 0");
     }
   }
 
@@ -53,7 +53,7 @@ class Elephant extends Animal {
 
   @override
   void makeSound() {
-    print("${getName()} trumpets! 🐘");
+    print("${getName()} trumpets!");
   }
 }
 
